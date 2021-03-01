@@ -3,7 +3,8 @@ import header from '../images/header.jpg'
 import { Button,Dropdown } from 'react-bootstrap'
 function Header() {
 	return (
-		<div style={{ background: `url(${header})`, backgroundColor: 'red', height: '350px', width: '100%' }}>
+		<div style={{ backgroundImage: `url(${header})`,backgroundSize: 'cover',
+		backgroundRepeat: 'no-repeat', height: '350px', width: '100%' }}>
 			<div style={{ marginLeft: 30, display: 'flex' }} className="Left">
 				<p style={{ color: 'white' }}>GERAT</p>
 				<div style={{ display: 'flex', marginLeft: '50%' }}>
